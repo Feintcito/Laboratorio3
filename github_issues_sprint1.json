@@ -1,0 +1,122 @@
+[
+    {
+        "title": "\ud83d\udccc H1 - Definir eventos cr\u00edticos y umbrales de alerta",
+        "body": "Tarea de Historia 1: Generaci\u00f3n de Alertas\n\nResponsable: Analista de Seguridad\nTiempo estimado: 4h\n\nDescripci\u00f3n: Identificar comportamientos an\u00f3malos t\u00edpicos y establecer umbrales que disparen alertas autom\u00e1ticas.",
+        "labels": [
+            "H1 - Alertas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H1 - Dise\u00f1ar sistema de notificaciones",
+        "body": "Tarea de Historia 1: Generaci\u00f3n de Alertas\n\nResponsable: Backend / Arquitecto\nTiempo estimado: 6h\n\nDescripci\u00f3n: Dise\u00f1ar canales de alerta (correo, API, logs). Debe ser escalable y seguro.",
+        "labels": [
+            "H1 - Alertas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H1 - Implementar l\u00f3gica de generaci\u00f3n de alertas",
+        "body": "Tarea de Historia 1: Generaci\u00f3n de Alertas\n\nResponsable: Backend\nTiempo estimado: 10h\n\nDescripci\u00f3n: Desarrollo del componente que detecta eventos y dispara alertas.",
+        "labels": [
+            "H1 - Alertas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H1 - Configurar logs y entorno de pruebas",
+        "body": "Tarea de Historia 1: Generaci\u00f3n de Alertas\n\nResponsable: DevOps\nTiempo estimado: 4h\n\nDescripci\u00f3n: Crear entorno de testing y configuraciones para almacenar y verificar alertas.",
+        "labels": [
+            "H1 - Alertas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H1 - Validar funcionamiento con casos simulados",
+        "body": "Tarea de Historia 1: Generaci\u00f3n de Alertas\n\nResponsable: QA / Seguridad\nTiempo estimado: 4h\n\nDescripci\u00f3n: Probar que las alertas se generen correctamente frente a escenarios conocidos.",
+        "labels": [
+            "H1 - Alertas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H2 - Definir respuestas autom\u00e1ticas ante amenazas",
+        "body": "Tarea de Historia 2: Respuestas Autom\u00e1ticas\n\nResponsable: Seguridad\nTiempo estimado: 4h\n\nDescripci\u00f3n: Determinar acciones autom\u00e1ticas frente a tipos de amenaza definidos.",
+        "labels": [
+            "H2 - Respuestas Autom\u00e1ticas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H2 - Crear m\u00f3dulo de respuestas",
+        "body": "Tarea de Historia 2: Respuestas Autom\u00e1ticas\n\nResponsable: Backend\nTiempo estimado: 8h\n\nDescripci\u00f3n: Implementar el m\u00f3dulo que ejecuta respuestas automatizadas (bloqueo IP, etc).",
+        "labels": [
+            "H2 - Respuestas Autom\u00e1ticas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H2 - Integrar respuestas con alertas",
+        "body": "Tarea de Historia 2: Respuestas Autom\u00e1ticas\n\nResponsable: Backend\nTiempo estimado: 4h\n\nDescripci\u00f3n: Enlazar generaci\u00f3n de alertas con acciones automatizadas.",
+        "labels": [
+            "H2 - Respuestas Autom\u00e1ticas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H2 - Crear logs de acciones autom\u00e1ticas",
+        "body": "Tarea de Historia 2: Respuestas Autom\u00e1ticas\n\nResponsable: DevOps\nTiempo estimado: 4h\n\nDescripci\u00f3n: Registrar acciones tomadas por el sistema autom\u00e1ticamente.",
+        "labels": [
+            "H2 - Respuestas Autom\u00e1ticas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H2 - Probar respuestas en entorno controlado",
+        "body": "Tarea de Historia 2: Respuestas Autom\u00e1ticas\n\nResponsable: QA\nTiempo estimado: 4h\n\nDescripci\u00f3n: Validar que las respuestas se ejecuten sin efectos colaterales no deseados.",
+        "labels": [
+            "H2 - Respuestas Autom\u00e1ticas",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H3 - Dise\u00f1ar interfaz de monitoreo",
+        "body": "Tarea de Historia 3: Monitoreo en Tiempo Real\n\nResponsable: UX/UI\nTiempo estimado: 6h\n\nDescripci\u00f3n: Dise\u00f1ar panel de eventos en tiempo real claro y usable.",
+        "labels": [
+            "H3 - Monitoreo",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H3 - Implementar visualizaci\u00f3n en tiempo real",
+        "body": "Tarea de Historia 3: Monitoreo en Tiempo Real\n\nResponsable: Frontend\nTiempo estimado: 10h\n\nDescripci\u00f3n: Usar WebSocket u otra tecnolog\u00eda para mostrar eventos a tiempo real.",
+        "labels": [
+            "H3 - Monitoreo",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H3 - Backend para eventos en vivo",
+        "body": "Tarea de Historia 3: Monitoreo en Tiempo Real\n\nResponsable: Backend\nTiempo estimado: 6h\n\nDescripci\u00f3n: Crear servicio backend para enviar datos de eventos al panel.",
+        "labels": [
+            "H3 - Monitoreo",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H3 - Integrar logs de eventos al panel",
+        "body": "Tarea de Historia 3: Monitoreo en Tiempo Real\n\nResponsable: DevOps\nTiempo estimado: 4h\n\nDescripci\u00f3n: Asegurar que los eventos que se loguean se reflejen en el dashboard.",
+        "labels": [
+            "H3 - Monitoreo",
+            "To do"
+        ]
+    },
+    {
+        "title": "\ud83d\udccc H3 - Realizar pruebas funcionales del dashboard",
+        "body": "Tarea de Historia 3: Monitoreo en Tiempo Real\n\nResponsable: QA\nTiempo estimado: 4h\n\nDescripci\u00f3n: Verificar que el panel funcione y sea visualmente coherente.",
+        "labels": [
+            "H3 - Monitoreo",
+            "To do"
+        ]
+    }
+]
