@@ -92,13 +92,13 @@ Se implementarán alertas automáticas para:
 
 | ID Requisito | Descripción | Objetivo del Requisito | Pruebas Asociadas | Verificación | Estado |
 |--------------|-------------|------------------------|-------------------|--------------|--------|
-| RF01 | Conexión MQTT | Garantizar conectividad inicial y estable | TC01: Conexión inicial MQTT <br> TC02: Reconexión automática | Prueba funcional con simulador MQTT | Pendiente |
-| RF02 | Transmisión periódica o crítica | Asegurar envío continuo y en condiciones críticas | TC03: Envío cada 30s <br> TC04: Envío por evento crítico | Prueba de estrés con eventos simulados | Pendiente |
-| RF03 | Cifrado de datos | Proteger datos sensibles en tránsito | TC05: Cifrado AES <br> TC06: Análisis de tráfico | Verificación con herramientas de sniffing | Pendiente |
-| RF04 | Corrección de errores | Mejorar integridad de datos | TC07: Inyección de errores <br> TC08: Verificación CRC | Simulación con pérdida de paquetes | Pendiente |
-| RF05 | Almacenamiento y reenvío | Evitar pérdida de datos en fallas | TC09: Pérdida de red <br> TC10: Reenvío al reconectar | Desconexión simulada y recuperación | Pendiente |
-| RF06 | Logs de diagnóstico | Facilitar mantenimiento y monitoreo | TC11: Registro de logs <br> TC12: Filtros de criticidad | Verificación en archivo de logs | Pendiente |
-| RF07 | Actualizaciones OTA | Mantener firmware actualizado de forma segura | TC13: Envío OTA <br> TC14: Verificación de integridad | Test en múltiples dispositivos | Pendiente |
+| RF01 | Conexión MQTT | Garantizar conectividad inicial y estable | - Conexión inicial MQTT <br> - Reconexión automática | Prueba funcional con simulador MQTT | Pendiente |
+| RF02 | Transmisión periódica o crítica | Asegurar envío continuo y en condiciones críticas | - Envío cada 30s <br> - Envío por evento crítico | Prueba de estrés con eventos simulados | Pendiente |
+| RF03 | Cifrado de datos | Proteger datos sensibles en tránsito | - Cifrado AES <br> - Análisis de tráfico | Verificación con herramientas de sniffing | Pendiente |
+| RF04 | Corrección de errores | Mejorar integridad de datos | - Inyección de errores <br> - Verificación CRC | Simulación con pérdida de paquetes | Pendiente |
+| RF05 | Almacenamiento y reenvío | Evitar pérdida de datos en fallas | - Pérdida de red <br> - Reenvío al reconectar | Desconexión simulada y recuperación | Pendiente |
+| RF06 | Logs de diagnóstico | Facilitar mantenimiento y monitoreo | - Registro de logs <br> - Filtros de criticidad | Verificación en archivo de logs | Pendiente |
+| RF07 | Actualizaciones OTA | Mantener firmware actualizado de forma segura | - Envío OTA <br> - Verificación de integridad | Test en múltiples dispositivos | Pendiente |
 
 ---
 
