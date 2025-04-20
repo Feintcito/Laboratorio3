@@ -88,18 +88,19 @@ Se implementarán alertas automáticas para:
 * Reconexiones frecuentes (más de 5 en 1 hora)
 * Detección de condiciones críticas en los sensores
 
-## 8. [NUEVO] Matriz de Trazabilidad
+## 8. [ACTUALIZADO] Matriz de Trazabilidad
 
-| ID Requisito | Descripción | Pruebas Asociadas | Estado |
-|--------------|-------------|-------------------|---------|
-| RF01 | Conexión MQTT | TC01, TC02 | Pendiente |
-| RF02 | Transmisión periódica | TC03, TC04 | Pendiente |
-| RF03 | Cifrado de datos | TC05, TC06 | Pendiente |
-| RF04 | Corrección de errores | TC07, TC08 | Pendiente |
-| RF05 | Almacenamiento temporal | TC09, TC10 | Pendiente |
-| RF06 | Logs de diagnóstico | TC11, TC12 | Pendiente |
-| RF07 | Actualizaciones OTA | TC13, TC14 | Pendiente |
+| ID Requisito | Descripción | Objetivo del Requisito | Pruebas Asociadas | Verificación | Estado |
+|--------------|-------------|------------------------|-------------------|--------------|--------|
+| RF01 | Conexión MQTT | Garantizar conectividad inicial y estable | TC01: Conexión inicial MQTT <br> TC02: Reconexión automática | Prueba funcional con simulador MQTT | Pendiente |
+| RF02 | Transmisión periódica o crítica | Asegurar envío continuo y en condiciones críticas | TC03: Envío cada 30s <br> TC04: Envío por evento crítico | Prueba de estrés con eventos simulados | Pendiente |
+| RF03 | Cifrado de datos | Proteger datos sensibles en tránsito | TC05: Cifrado AES <br> TC06: Análisis de tráfico | Verificación con herramientas de sniffing | Pendiente |
+| RF04 | Corrección de errores | Mejorar integridad de datos | TC07: Inyección de errores <br> TC08: Verificación CRC | Simulación con pérdida de paquetes | Pendiente |
+| RF05 | Almacenamiento y reenvío | Evitar pérdida de datos en fallas | TC09: Pérdida de red <br> TC10: Reenvío al reconectar | Desconexión simulada y recuperación | Pendiente |
+| RF06 | Logs de diagnóstico | Facilitar mantenimiento y monitoreo | TC11: Registro de logs <br> TC12: Filtros de criticidad | Verificación en archivo de logs | Pendiente |
+| RF07 | Actualizaciones OTA | Mantener firmware actualizado de forma segura | TC13: Envío OTA <br> TC14: Verificación de integridad | Test en múltiples dispositivos | Pendiente |
 
 ---
 
 Última actualización: 2025-04-19
+
