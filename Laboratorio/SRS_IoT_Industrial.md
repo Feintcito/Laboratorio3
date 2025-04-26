@@ -88,18 +88,19 @@ Se implementarán alertas automáticas para:
 * Reconexiones frecuentes (más de 5 en 1 hora)
 * Detección de condiciones críticas en los sensores
 
-## 8. [NUEVO] Matriz de Trazabilidad
+## 8. [ACTUALIZADO] Matriz de Trazabilidad
 
-| ID Requisito | Descripción | Pruebas Asociadas | Estado |
-|--------------|-------------|-------------------|---------|
-| RF01 | Conexión MQTT | TC01, TC02 | Pendiente |
-| RF02 | Transmisión periódica | TC03, TC04 | Pendiente |
-| RF03 | Cifrado de datos | TC05, TC06 | Pendiente |
-| RF04 | Corrección de errores | TC07, TC08 | Pendiente |
-| RF05 | Almacenamiento temporal | TC09, TC10 | Pendiente |
-| RF06 | Logs de diagnóstico | TC11, TC12 | Pendiente |
-| RF07 | Actualizaciones OTA | TC13, TC14 | Pendiente |
+| ID Requisito | Descripción | Objetivo del Requisito | Pruebas Asociadas | Verificación | Estado |
+|--------------|-------------|------------------------|-------------------|--------------|--------|
+| RF01 | Conexión MQTT | Garantizar conectividad inicial y estable | - Conexión inicial MQTT <br> - Reconexión automática | Prueba funcional con simulador MQTT | Pendiente |
+| RF02 | Transmisión periódica o crítica | Asegurar envío continuo y en condiciones críticas | - Envío cada 30s <br> - Envío por evento crítico | Prueba de estrés con eventos simulados | Pendiente |
+| RF03 | Cifrado de datos | Proteger datos sensibles en tránsito | - Cifrado AES <br> - Análisis de tráfico | Verificación con herramientas de sniffing | Pendiente |
+| RF04 | Corrección de errores | Mejorar integridad de datos | - Inyección de errores <br> - Verificación CRC | Simulación con pérdida de paquetes | Pendiente |
+| RF05 | Almacenamiento y reenvío | Evitar pérdida de datos en fallas | - Pérdida de red <br> - Reenvío al reconectar | Desconexión simulada y recuperación | Pendiente |
+| RF06 | Logs de diagnóstico | Facilitar mantenimiento y monitoreo | - Registro de logs <br> - Filtros de criticidad | Verificación en archivo de logs | Pendiente |
+| RF07 | Actualizaciones OTA | Mantener firmware actualizado de forma segura | - Envío OTA <br> - Verificación de integridad | Test en múltiples dispositivos | Pendiente |
 
 ---
 
 Última actualización: 2025-04-19
+
