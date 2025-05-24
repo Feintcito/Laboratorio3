@@ -3,19 +3,19 @@
 ### 1.1 Suite de Pruebas Desarrollada
 
 **Pruebas Unitarias (Jest + Supertest)**
-- Cobertura: 32 test cases
+- Cobertura: 10 test cases
 - Foco: Funciones individuales del servidor y cliente
 - Resultados: 94% de cobertura de código, 0 fallos críticos
 - Tiempo de ejecución: ~2.3 segundos
 
 **Pruebas de Integración**
-- Cobertura: 18 test cases
+- Cobertura: 5 test cases
 - Foco: Comunicación cliente-servidor, múltiples usuarios
 - Resultados: 100% de casos exitosos, latencia promedio <50ms
 - Casos críticos: Gestión de salas, sincronización de mensajes
 
 **Pruebas End-to-End (Cypress + Playwright)**
-- Cobertura: 12 scenarios automatizados
+- Cobertura: 1 scenarios automatizados
 - Foco: Flujos completos de usuario, interacciones UI
 - Resultados: 100% de escenarios exitosos en Chrome, Firefox, Safari
 - Tiempo promedio de ejecución: ~45 segundos por suite
